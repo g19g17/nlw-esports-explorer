@@ -29,7 +29,7 @@ header {
 header div {
     width: 120px;
     margin: auto;
-    background-image: linear-gradient(90deg, #250043 0%, #611a9b 50.52%, #6021ec 100%);
+    background-image: linear-gradient(90deg, #250043 0%, #611a9b 50.52%, #250043 100%);
     
     border-radius: 50%;
     
@@ -62,7 +62,7 @@ main {
 
 section {
     color: white;
-    background-image: linear-gradient(90deg, #250043 0%, #611a9b 50.52%, #6021ec 100%);
+    background-image: linear-gradient(90deg, #250043 0%, #611a9b 50.52%, #250043 100%);
     padding-top: 4px;
     border-radius: 10px;
 }
@@ -106,7 +106,13 @@ section ul li:hover {
     border-radius: 8px;
 }
 
-.channels-list img {
+.channels-list1 img {
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid #443E54;
+}
+
+.channels-list2 img {
     width: 70px;
     border-radius: 50%;
     border: 1px solid #443E54;
@@ -115,6 +121,14 @@ section ul li:hover {
 .social-list img {
     width: 30px;
     border-radius: 4%;
+}
+
+.div-2 img {
+    width: 30px;
+    animation-name: spin;
+    animation-duration: 8000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
 }
 
 /* animaton */
@@ -127,6 +141,7 @@ main section {
     animation: frameBottom .7s backwards;
 }
 
+
 main section:nth-child(1) {
     animation-delay: 0;
 }
@@ -138,6 +153,7 @@ main section:nth-child(2) {
 main section:nth-child(3) {
     animation-delay: .8s;
 }
+
 
 @keyframes frameTop {
     from {
@@ -160,5 +176,14 @@ main section:nth-child(3) {
     to {
         opacity: 1;
         transform: translatex(0);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
     }
 }
