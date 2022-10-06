@@ -5,11 +5,11 @@
 }
 
 body {
-    background-image: url(./assets/Fundo.jpg); /*função que carrega a imagem  do background*/
+    background-image: url(./assets/Fundo2.png); /*função que carrega a imagem  do background*/
     background-position: top center; /*a imagem ficará no topo da página e no centro da página*/
     background-size: 100% auto; /*o fundo terá sua largura 100% do site e sua altura automática*/
     background-repeat: no-repeat; /*o fundo não vai repetir*/
-    background-color: #121214; /*cor do fundo com hexadecimal*/
+    background-color: #06000a; /*cor do fundo com hexadecimal*/
 }
 
 ul {
@@ -29,7 +29,7 @@ header {
 header div {
     width: 120px;
     margin: auto;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #250043 0%, #611a9b 50.52%, #6021ec 100%);
     
     border-radius: 50%;
     
@@ -62,13 +62,13 @@ main {
 
 section {
     color: white;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #250043 0%, #611a9b 50.52%, #6021ec 100%);
     padding-top: 4px;
     border-radius: 10px;
 }
 
 section div {
-    background-color: #2A2634;
+    background-color: #131023;
     padding: 32px;
     padding-top: 24px;
     border-radius: 8px;
@@ -110,6 +110,11 @@ section ul li:hover {
     width: 70px;
     border-radius: 50%;
     border: 1px solid #443E54;
+}
+
+.social-list img {
+    width: 30px;
+    border-radius: 4%;
 }
 
 /* animaton */
